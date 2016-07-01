@@ -8,6 +8,7 @@ func main()  {
 
 	fmt.Println("mySlice : ", mySlice)
 	fmt.Println("mySlice1 : ", mySlice1)
+    fmt.Println("mySlice1[:2]",mySlice1[:2])
 	mySlice = append(mySlice,1,2,3)
 	fmt.Println("mySlice : ", mySlice)
 	mySlice = append(mySlice,mySlice1...)
